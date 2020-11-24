@@ -57,8 +57,8 @@ module.exports = {
     bundle: 'app.js',
   },
   service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
+    api: '/MortgageCalculator/:listing_id',
+    url: 'http://localhost:3004/:id',
+    bundle: 'bundle.js',
   },
 };
